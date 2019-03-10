@@ -1,0 +1,25 @@
+{
+  "name": "homebridge-dwelo",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=4.3.2",
+    "homebridge": ">=0.4.8"
+  },
+  "dependencies": {
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "typescript": "2.7.2"
+  }
+}

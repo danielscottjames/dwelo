@@ -1,0 +1,27 @@
+{
+    "bridge": {
+        "name": "Homebridge",
+        "username": "CC:22:3D:E3:CE:31",
+        "port": 51826,
+        "pin": "123-45-678"
+    },
+    
+    "description": "Get the token by inspecting requests made by an authenticated Dwelo app (like their website.)",
+
+    "accessories": [
+        {
+            "token": <TOKEN>,
+            "accessory": "Dwelo Lights",
+            "name": "Living Room Lights",
+            "home": ##,
+            "lights": [##]
+        },
+        {
+            "token": <TOKEN>,
+            "accessory": "Dwelo Lights",
+            "name": "Kitchen Lights",
+            "home": ##,
+            "lights": [##]
+        }
+    ]
+}
